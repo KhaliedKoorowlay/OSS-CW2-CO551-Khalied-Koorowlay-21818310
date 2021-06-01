@@ -56,7 +56,7 @@ if (isset($_SESSION['id'])) {
    <input name="txtcountry" type="text"  value="{$row['country']}" /><br/>
    Postcode :
    <input name="txtpostcode" type="text"  value="{$row['postcode']}" /><br/>
-   <input type="submit" value="Save" name="submit"/>
+   <input type="submit" value="Save" name="submit" class='submitButton'/>
    </form>
 
 EOD;

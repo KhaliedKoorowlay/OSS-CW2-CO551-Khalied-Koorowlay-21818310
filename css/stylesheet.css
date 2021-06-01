@@ -1,0 +1,86 @@
+/* Navigation */
+body{
+  padding-top: 50px;
+}
+.navigationBar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navigationBar a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 14px 16px;
+  color: #f2f2f2;
+}
+.navigationBar a:hover {
+  color: black;
+  background-color: #ff9c21;
+}
+
+/* Login */
+.login{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -200%);
+}
+.login td {
+  font-size: 20px;
+}
+.login input{
+  display: block;
+  margin: 10 auto;
+}
+
+/* Modules Table */
+.modulesTable th, .modulesTable td {
+  text-align: center;
+  font-size: 20px;
+}
+.modulesTable th{
+  background-color: #ff9c21;
+}
+
+/* Assign Modules */
+.selectModule{
+  margin: 10px 20px 25px 0px;
+}
+
+/* Students */
+.studentList  table,.studentList th,.studentList td {
+  border: 1px solid black;
+}
+.studentList th,.studentList td{
+  text-align: center;
+}
+.studentList th {
+  background-color: #ff9c21;
+  height: 50px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Modules Talbe */
+
+.modulesTable table, .modulesTable th, .modulesTable td{
+  border: 1px solid black;
+}
+
+/* Button */
+.submitButton {
+    width: 200px;
+    height: 35px;
+    background-color: #ff9c21;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin: 5px;
+}
