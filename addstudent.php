@@ -11,25 +11,25 @@
   $data['content']= "<h3>Add Student</h3>
   <form action='addstudent.php' method='post' enctype='multipart/form-data'>
     Student ID:
-    <input type='text' name='studentid' placeholder='20000000' required><br/>
+    <input type='text' name='studentid' required><br/>
     Password:
     <input type='password' name='password' required><br/>
     DoB(YYYY-MM-DD):
-    <input type='text' name='dob' placeholder='2000-01-01' required><br/>
+    <input type='text' name='dob' required><br/>
     First Name:
-    <input type='text' name='firstName' placeholder='John' required><br/>
+    <input type='text' name='firstName' required><br/>
     Last Name:
-    <input type='text' name='lastName' placeholder='Smith' required><br/>
+    <input type='text' name='lastName' required><br/>
     Number and Street:
-    <input type='text' name='numberAndStreet' placeholder='32A Bridge Street' required><br/>
+    <input type='text' name='numberAndStreet' required><br/>
     Town:
-    <input type='text' name='town' placeholder='High Wycombe' required><br/>
+    <input type='text' name='town' required><br/>
     County:
-    <input type='text' name='county' placeholder='Bucks' required><br/>
+    <input type='text' name='county' required><br/>
     Country:
-    <input type='text' name='country' placeholder='UK' required><br/>
+    <input type='text' name='country' required><br/>
     Postcode:
-    <input type='text' name='postcode' placeholder='HP11 2EL' required><br/>
+    <input type='text' name='postcode' required><br/>
     Picture:
     <input type='file' name='image' accept='image/jpeg' class='form-control' required/><br/>
     <input type='submit' name='submit' value='Submit' class='submitButton'/>
